@@ -64,7 +64,7 @@
   align-self: stretch;
 
   display: flex;
-
+  font-size: 1.4rem;
   & > * {
     padding: 0 2rem;
     cursor: pointer;
@@ -81,6 +81,8 @@
     border: none;
     background-color: inherit;
     cursor: pointer;
+    display: flex;
+    align-items: center;
   }
   &__icon-box {
     position: relative;
