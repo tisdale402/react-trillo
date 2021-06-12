@@ -3,14 +3,17 @@ import '../../styles/sass/style.scss';
 import BookmarkButton from "../../components/usernav/bookmarkButton/bookmarkButton";
 import MessageButton from "../../components/usernav/messageButton/messageButton";
 import UserNavImageButton from "../../components/usernav/userNavImageButton/userNavImageButton";
+import UserNavNotification from "../../components/usernav/userNavNotification/userNavNotification";
 
 const UserNav = () => (
     <div className='user-nav'>
         <div className='user-nav__icon-box'>
             <BookmarkButton/>
+            <UserNavNotification/>
         </div>
         <div className='user-nav__icon-box'>
             <MessageButton/>
+            <UserNavNotification/>
         </div>
         <div className='user-nav__icon-box'>
             <UserNavImageButton/>
