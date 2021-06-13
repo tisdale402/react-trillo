@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import '../../styles/sass/style.scss';
-import UserNavNotification from "../../components/usernav/userNavNotification/userNavNotification";
-import Bookmark from "../../components/imageComponents/bookmark/bookmark";
-import Message from "../../components/imageComponents/message/message";
-import UserNavImage from "../../components/imageComponents/userNavImages/userNavImage";
+import UserNavNotification from "./userNavNotification";
+import Bookmark from "../imageComponents/bookmark/bookmark";
+import Message from "../imageComponents/message/message";
+import UserNavImage from "../imageComponents/userNavImages/userNavImage";
 
 
 const UserNav = () => {
