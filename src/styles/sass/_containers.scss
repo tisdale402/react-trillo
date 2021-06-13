@@ -23,3 +23,18 @@
   //background-color: yellowgreen;
   height: 60rem;
 }
+
+.hotel-view {
+  background-color: #fff;
+
+  flex: 1;
+}
+
+.gallery {
+  display: flex;
+
+  &_photo {
+    width: 100%;
+    display: block;
+  }
+}
