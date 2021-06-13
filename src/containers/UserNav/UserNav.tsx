@@ -1,23 +1,23 @@
 import React from "react";
 import '../../styles/sass/style.scss';
-import BookmarkButton from "../../components/usernav/bookmarkButton/bookmarkButton";
-import MessageButton from "../../components/usernav/messageButton/messageButton";
-import UserNavImageButton from "../../components/usernav/userNavImageButton/userNavImageButton";
 import UserNavNotification from "../../components/usernav/userNavNotification/userNavNotification";
+import Bookmark from "../../components/imageComponents/bookmark/bookmark";
+import Message from "../../components/imageComponents/message/message";
+import UserNavImage from "../../components/imageComponents/userNavImages/userNavImage";
 
 const UserNav = () => (
     <div className='user-nav'>
-        <div className='user-nav__icon-box'>
-            <BookmarkButton/>
+        <button className='user-nav__button'>
+            <Bookmark color='#777'/>
             <UserNavNotification/>
-        </div>
-        <div className='user-nav__icon-box'>
-            <MessageButton/>
+        </button>
+        <button className='user-nav__button'>
+            <Message color='#777'/>
             <UserNavNotification/>
-        </div>
-        <div className='user-nav__icon-box'>
-            <UserNavImageButton/>
-        </div>
+        </button>
+        <button className='user-nav__button'>
+            <UserNavImage/> Jonas
+        </button>
     </div>
 );
 
