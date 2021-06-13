@@ -10,6 +10,6 @@ const Header = () => (
         <Search/>
         <UserNav/>
     </div>
-)
+);
 
 export default Header;
