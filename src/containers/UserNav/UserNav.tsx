@@ -10,29 +10,29 @@ const UserNav = () => {
     const [numBookmarks, setBookmark] = useState(0);
     const [numMessages, setMessages] = useState(0);
 
-    const increaseBookmark = () => (
-        setBookmark(numBookmarks+1)
-    );
-
-    const decreaseBookmark = () => {
-        if (numBookmarks === 0) {
-            setBookmark(0);
-            return;
-        }
-        setBookmark(numBookmarks - 1);
-    };
-
-    const increaseMessages = () => (
-        setMessages(numMessages+1)
-    );
-
-    const decreaseMessages = () => {
-        if (numMessages === 0) {
-            setMessages(0);
-            return;
-        }
-        setMessages(numMessages - 1);
-    };
+    // const increaseBookmark = () => (
+    //     setBookmark(numBookmarks+1)
+    // );
+    //
+    // const decreaseBookmark = () => {
+    //     if (numBookmarks === 0) {
+    //         setBookmark(0);
+    //         return;
+    //     }
+    //     setBookmark(numBookmarks - 1);
+    // };
+    //
+    // const increaseMessages = () => (
+    //     setMessages(numMessages+1)
+    // );
+    //
+    // const decreaseMessages = () => {
+    //     if (numMessages === 0) {
+    //         setMessages(0);
+    //         return;
+    //     }
+    //     setMessages(numMessages - 1);
+    // };
 
     return (
         <div className='user-nav'>
@@ -40,14 +40,10 @@ const UserNav = () => {
                 <Bookmark color='#777'/>
                 <UserNavNotification numNotifications={numBookmarks}/>
             </button>
-            <button onClick={increaseBookmark}>Increase Bookmarks</button>
-            <button onClick={decreaseBookmark}>Decrease Bookmarks</button>
             <button className='user-nav__button'>
                 <Message color='#777'/>
                 <UserNavNotification numNotifications={numMessages}/>
             </button>
-            <button onClick={increaseMessages}>Increase Messages</button>
-            <button onClick={decreaseMessages}>Decrease Messages</button>
             <button className='user-nav__button'>
                 <UserNavImage/> Jonas
             </button>
