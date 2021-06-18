@@ -8,7 +8,7 @@ import MapSVG from "../../components/imageComponents/mapSVG/mapSVG";
 const Sidebar = () => (
     <nav className='sidebar'>
         <ul className='side-nav'>
-            <HotelSVG className='side-nav__item'/>
+            <HotelSVG className='side-nav__item side-nav__item--active'/>
             <FlightSVG className='side-nav__item'/>
             <KeySVG className='side-nav__item'/>
             <MapSVG className='side-nav__item'/>
