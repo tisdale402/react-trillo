@@ -8,9 +8,10 @@ import HotelOneImg from ".././../../img/hotel-1.jpg";
 import HotelTwoImg from ".././../../img/hotel-2.jpg";
 //@ts-ignore
 import HotelThreeImg from ".././../../img/hotel-3.jpg";
+import Overview from "../Overview/Overview";
 
 const HotelView = () => (
-  <div className='hotel-view'>
+  <main className='hotel-view'>
       <div className='gallery'>
           <figure>
             <HotelComponent imagePath={HotelOneImg}/>
@@ -22,7 +23,8 @@ const HotelView = () => (
               <HotelComponent imagePath={HotelThreeImg}/>
           </figure>
       </div>
-  </div>
+      <Overview/>
+  </main>
 );
 
 export default HotelView;
