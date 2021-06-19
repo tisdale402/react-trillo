@@ -13,6 +13,9 @@ const Sidebar = () => (
             <KeySVG className='side-nav__item'/>
             <MapSVG className='side-nav__item'/>
         </ul>
+        <div className='legal'>
+            &copy; 2021 by Trillo. All rights reserved.
+        </div>
     </nav>
 );
 
