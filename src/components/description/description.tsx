@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../styles/sass/style.scss';
+import BulletSVG from "../imageComponents/bulletSVG/bulletSVG";
+import BulletList from "./bulletList";
 
 const Description = () => (
     <div className='description'>
@@ -11,6 +13,7 @@ const Description = () => (
         <p className='paragraph'>
             Quisquam quod veniam voluptas. Accusamus autem dolor dolorum esse quibusdam!
         </p>
+        <BulletList/>
     </div>
 );
 
