@@ -9,6 +9,7 @@ import HotelTwoImg from ".././../../img/hotel-2.jpg";
 //@ts-ignore
 import HotelThreeImg from ".././../../img/hotel-3.jpg";
 import Overview from "../Overview/Overview";
+import Detail from "../Detail/Detail";
 
 const HotelView = () => (
   <main className='hotel-view'>
@@ -24,6 +25,7 @@ const HotelView = () => (
           </figure>
       </div>
       <Overview/>
+      <Detail/>
   </main>
 );
 
