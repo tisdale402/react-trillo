@@ -4,6 +4,7 @@ import '../../styles/sass/style.scss';
 import UserReviewImg1 from "../../../img/user-1.jpg";
 //@ts-ignore
 import UserReviewImg2 from "../../../img/user-2.jpg";
+import UserReviewButton from "../../components/reviews/userReviewButton";
 const UserReviews = () => (
     <div className='user-reviews'>
         <figure className='review'>
@@ -33,6 +34,7 @@ const UserReviews = () => (
                 <div className='review__rating'>9.3</div>
             </figcaption>
         </figure>
+        <UserReviewButton/>
     </div>
 );
 
