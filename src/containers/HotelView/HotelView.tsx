@@ -10,6 +10,7 @@ import HotelTwoImg from ".././../../img/hotel-2.jpg";
 import HotelThreeImg from ".././../../img/hotel-3.jpg";
 import Overview from "../Overview/Overview";
 import Detail from "../Detail/Detail";
+import CTA from "../CTA/CTA";
 
 const HotelView = () => (
   <main className='hotel-view'>
@@ -26,6 +27,7 @@ const HotelView = () => (
       </div>
       <Overview/>
       <Detail/>
+      <CTA/>
   </main>
 );
 
