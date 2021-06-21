@@ -1,7 +1,6 @@
 .App {
   max-width: 120rem;
   margin: 3rem auto;
-  height: 100px;
   background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
 
@@ -62,4 +61,25 @@
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
+}
+
+.user-reviews {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta {
+  padding: 3.5rem 0;
+  text-align: center;
+
+  &__book-now {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+
+  }
 }
