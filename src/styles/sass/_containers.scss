@@ -83,3 +83,20 @@
 
   }
 }
+
+.title-page {
+  text-align: center;
+
+  &__header{
+  font-size: 18.4rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+  &__subtitle {
+    font-size: 5rem;
+    font-weight: 50;
+    color: #fff;
+    margin-bottom: 5rem;
+  }
+}
